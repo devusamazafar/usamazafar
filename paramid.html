@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //let n = 5;
+        // let n = 5;
+        // for(let i = 1;i< n; i++)
+        // {
+        //     let string = "";
+
+        //     for(let k = 0; k < i;k++)
+        //     {
+        //         string += "*";
+
+        //     }
+        //     console.log(string);
+        // }
+        // let n = 5;
+
+        // let string = "";
+        // //line loop
+        // for (let i = 0; i < n; i++) {
+
+        //     //space loop
+        //     for (let j = 1; j < n - i; j++) {
+
+        //         string += "-";
+
+        //     }
+        //     //stars loop
+        //     for (let k = 0; k < i * 2 + 1; k++) {
+
+        //         if (i == 0 || i == n - 1 || k == 0 || k == i * 2) {
+        //             string += "*";
+        //         } else {
+        //             string += " ";
+        //         }
+
+
+        //     }
+        //     string += "\n";
+        // }
+        // console.log(string);
+
+
+        let num = 10;
+        let string = "";
+        for (let i = 0; i < num; i++) {
+            for (let j = 0; j < num; j++) {
+                if (i == 0 || i == num - 1 || j == 0 || j == num - 1){
+                    string += "*";}
+                else { string += " " }
+            }
+            string += "\n";
+        }
+        console.log(string);
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

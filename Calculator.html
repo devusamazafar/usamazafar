@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper">
+            
+            <input type="text" disabled id="input" placeholder="">
+
+        </div>
+  
+        <div class="middle">
+           <button id="clear" onclick="btn('C')">C</button>
+           <button id="operator" onclick="evaluatorOp('%')">%</button>
+           <button id="digit" onclick="evaluator('00')">00</button>
+           <button id="operator" onclick="evaluatorOp('/')">&#xF7;</button>
+        </div>
+        <div class="lower">
+            <button id="digit" onclick="evaluator('7')">7</button>
+            <button id="digit" onclick="evaluator('8')">8</button>
+            <button id="digit" onclick="evaluator('9')">9</button>
+            <button id="operator" class="special" onclick="evaluatorOp('*')">x</button>
+
+            <button id="digit" onclick="evaluator('4')">4</button>
+            <button id="digit" onclick="evaluator('5')">5</button>
+            <button id="digit" onclick="evaluator('6')">6</button>
+            <button id="operator" class="special" onclick="evaluatorOp('-')">-</button>
+
+            <button id="digit" onclick="evaluator('1')">1</button>
+            <button id="digit" onclick="evaluator('2')">2</button>
+            <button id="digit" onclick="evaluator('3')">3</button>
+            <button id="operator" class="special" onclick="evaluatorOp('+')">+</button>
+        </div>
+        <div class="bottom">
+            <button id="digit" onclick="evaluator('0')">0</button>
+            <button id="digit" onclick="evaluator('.')">.</button>
+            <button id="equal" class="equal" onclick="eq()">=</button>
+        </div>
+    </div>
+
+   
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
